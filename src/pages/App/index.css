@@ -1,0 +1,42 @@
+.intro {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.movie__box {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: auto;
+}
+
+.loading {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem auto;
+}
+
+.error {
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+.load__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f54eb;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+}
+
+@media all and (min-width: 1200px) {
+  .movie__box {
+    width: 1200px;
+  }
+}
